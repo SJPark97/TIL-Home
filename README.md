@@ -121,6 +121,7 @@
       - git log --oneline : 한 줄로 버전 확인 (간편하게)
     - git checkout (version ID) : 버전 불러오기
     - git reset --hard (version ID) : 버전 돌아가기
+    - git commit -am "Why" (add와 commit를 동시에 하는 법)
 - git clone : 다운로드 (Remote에 있는 내용을 그대로 다운로드)
   - 폴더 생성
   - git init
@@ -139,3 +140,17 @@
   - .gitignore 파일 만든 후 gitignore.io에 접속 후 프로그램 언어, 개발환경, 사용 프로그램, 입력 후 내용 복붙
 - 협업하는 사람이 많아지면
   - branch, merge를 이용 (DAY 4에 구글링으로 확인 후 학습 예정)
+
+---
+
+#### DAY 4
+
+###### 자율학습
+
+- git - branch
+  - 나무의 가지로 비유
+  - 작업이 분기되는 현상 (branch를 만든다)
+  - git branch (현재 branch 확인)
+  - git branch 이름 (branch를 만든다)
+  - git check out 이름 (해당하는 branch로 바꾼다)
+  - 
