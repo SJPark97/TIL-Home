@@ -154,7 +154,6 @@
   - git branch 이름 (branch를 만든다)
   - git check out 이름 (해당하는 branch로 바꾼다)
     - ![image-20220717221534404](README.assets/image-20220717221534404.png)
-  
   - git log --branches -- decorate --graph --oneline
     - ![image-20220717222703815](README.assets/image-20220717222703815.png)
   - git log master...exp (master에는 없고 exp에는 있는 것)
@@ -164,3 +163,53 @@
   - git log -p exp..master (exp에는 없고 master에는 있는 것과 변경 내용)
     - ![image-20220717223313552](README.assets/image-20220717223313552.png)
   - Git - branch에서 학습 종료
+
+---
+
+#### DAY 5
+
+###### Python 기초
+
+- 프로그래밍 용어 정리
+  - 프로그래밍 : 컴퓨터에게 일을 시키기 위해서 프로그램을 만드는 행위
+  - 프로그램 : 컴퓨터가 해야 할 일들의 모음
+  - 프로그래머 : 프로그램을 만드는 사람 (소프트웨어 개발자)
+  - 소프트웨어 : 엄밀히 따지면 다르지만. 프로그램과 유사한 의미로 사용
+  - 코딩 : 엄밀히 따지면 다르지만. 프로그래밍과 유사한 의미로 사용
+- Python을 배워야 하는 이유
+  - 알고리즘 코딩 테스트에서 Python이 2위를 기록
+  - 코딩 테스트의 유형이 다양해지면서, 변칙적인 유형에 대응하기 쉬운 Python이 코딩 테스트에 유리
+  - 입사를 위한 코딩 테스트는 Python 추천
+- Jupyter Notebook
+  - 문법 학습을 위한 최적의 도구로, 소스코드와 함께 실행 결과와 마크다운 저장 가능
+  - 웹 플랫폼 킻 어플리케이션으로, 파이썬을 비롯한 다양한 프로그래밍 언어를 지원하며 셀 단위의 실행이 가능한 것이 특징
+- 주석
+  - 코드를 보다 이해하기 쉽게 만드는 것
+  - 요즘은 코드를 다는 것 보다는 클린코드를 사용하는 것을 추천함. 
+- 연산자
+  - ![image-20220718215849324](README.assets/image-20220718215849324.png)
+- 자료형(Datatype) 분류
+  - 수치형 (Numeric Type)
+    - int (정수, integer)
+    - float (부동소수점, 실수, floating point number)
+    - complex (복소수, complex number)
+  - 문자열 (String Type)
+  - 불린형 (Boolean Type)
+  - None
+- 진수 표현
+  - 2진수 : 0b
+  - 8진수 : 0o
+  - 16진수 : 0x
+- Escape sequence
+  - ![image-20220718220200675](README.assets/image-20220718220200675.png)
+- 비교 연산자
+  - ![image-20220718220234449](README.assets/image-20220718220234449-16581493553861.png)
+  - ![image-20220718220301262](README.assets/image-20220718220301262.png)
+- 리스트
+  - 리스트는 대괄호([]) 혹은 list()를 통해 생성
+    - 파이썬에서는 어떠한 자료형도 저장할 수 있으며, 리스트 안에 리스트도 넣을 수 있음
+    - 생성된 이후 내용 변경이 가능 -> 가변 자료형
+  - 순서가 있는 시퀀스로 인덱스를 통해 접근 가능
+    - 값에 대한 접근은 list[i]![image-20220718220512983](README.assets/image-20220718220512983.png)
+- 튜플
+  - 
