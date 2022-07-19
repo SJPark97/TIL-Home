@@ -16,5 +16,5 @@
   - git log exp..master (exp에는 없고 master에는 있는 것)
     - ![image-20220717223057780](Vscord 2.assets/image-20220717223057780.png)
   - git log -p exp..master (exp에는 없고 master에는 있는 것과 변경 내용)
-    - ![image-20220717223313552](Vscord 2.assets/image-20220717223313552.png)
+    - ![image-20220720001041549](Vscord 2.assets/image-20220720001041549.png)
   - Git - branch에서 학습 종료
