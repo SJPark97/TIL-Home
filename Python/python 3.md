@@ -3,16 +3,19 @@
 ##### 교수님 강의 노트
 
 - map으로 입력 받는 과정 
+
 - a, b = map(int, input().split())
   - [Quiz 1]  a, b, c = map(int,input())
   - input() = 123
   - print(a + b + c)
   - answer = 6
+  
 - a, b = map(int, input().split())
   - [Quiz 1]  a, b, c = map(int,input().split())
   - input() = 1 2 3
   - print(a + b + c)
   - answer = 6
+  
 - end, sep 옵션을 사용하여 출력 조작하기
   - print(a, end='@')
   - print(b)
@@ -55,3 +58,12 @@
     - [2] 점화식
       - 무조건 범위가 줄어들어야함.
     - 재귀 함수는 깊이가 1000번으로 파이썬에서 정해져 있다.
+
+---
+
+# 가상 환경
+
+- 가상환경 설정 방법
+  - python -m venv venv
+  - source venv/Scripts/activate
+  - 
