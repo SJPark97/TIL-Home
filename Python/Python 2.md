@@ -33,6 +33,7 @@
       - 반복 제어
         - break
           - 반복문을 종료
+          - for문에서 탈출조건을 쓰지 않았을때 혹은 어떠한 조건을 만족시켰을때 바로 종료하기 위해 사용
         - continue
           - continue 이후의 코드 블록은 수행하지 않고, 다음 반복을 수행
         - for-else
@@ -40,7 +41,28 @@
             - break를 통해 중간에 종료되는 경우 else문은 실행되지 않음
         - pass
           - 아무것도 하지 않음(문법적으로 필요하지만, 할 일이 없을 때 사용)
+          - 반복문이 아니어도 사용 가능
+  - 함수의 기본 구조
+    - 선언과 호출
+      - 함수의 선언은 def 키워드를 활용함
+      - 들여쓰기를 통해 Function body(실행될 코드 블록)를 작성함
+        - Docstring은 함수 body 앞에 선택적으로 작성 가능
+          - 작성 시에는 반드시 첫 번째 문장에 문자열을 넣어야한다.
+      - 함수는 parameter를 넘겨줄 수 있음
+      - 함수는 동작 후에 return을 통해 결과값을 전달함
+    - 입력
+    - 문서화
+    - 범위
+    - 결과값
 
-너무 피곤해서 반복문 제어에서 끝!
+  ```python
+  def triangle_area(b, h):
+    return 0.5 * b *
+  print(triangle_area(5,6))
 
-남은건 내일
+  # 아래랑 동일하다.
+
+  triangle_area = lambda b, h : 0.5 * b * h
+  print(triangle_area(5, 6))
+  ```
+  
