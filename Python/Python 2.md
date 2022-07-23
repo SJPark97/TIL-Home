@@ -65,4 +65,5 @@
   triangle_area = lambda b, h : 0.5 * b * h
   print(triangle_area(5, 6))
   ```
-  
+
+  오늘은 여기서 끝
