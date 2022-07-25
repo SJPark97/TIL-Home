@@ -66,4 +66,3 @@
 - 가상환경 설정 방법
   - python -m venv venv
   - source venv/Scripts/activate
-  - 
