@@ -57,11 +57,11 @@
 
   ```python
   def triangle_area(b, h):
-    return 0.5 * b *
+    return 0.5 * b * h
   print(triangle_area(5,6))
-
+  
   # 아래랑 동일하다.
-
+  
   triangle_area = lambda b, h : 0.5 * b * h
   print(triangle_area(5, 6))
   ```

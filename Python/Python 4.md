@@ -31,7 +31,7 @@
 
   데이터 구조 활용 예시
 
-  ​  List.append(10), String.split(),
+    List.append(10), String.split(),
 
   - 문자열(String)
     - s.find(x) : x의 첫 번째 위치를 반환. 없으면, -1을 반환
@@ -59,6 +59,7 @@
     - L.index(x, start, end) : 리스트에 있는 항목 중 가장 왼쪽에 있는 항목 x의 인덱스를 반환
     - L.sort() : 리스트를 정렬 (매개변수 이용 가능)
     - L.count(x) : 리스트에서 항목 x가 몇 개 존재하는지 갯수를 반환
+    - enumerate(List) : 위치와 값을 동시에 저장
   - 튜플(Tuple)
     - 튜플은 변경할 수 없기 대문에 값에 영향을 미치지 않는 메서드만을 지원
     - 리스트 메서드 중 항목을 변경하는 메서드들을 제외하고 대부분 동일
@@ -69,7 +70,7 @@
     - s.copy() : 셋의 얕은 복사본을 반환
     - s.add(x) : 항목 x가 셋 s에 없다면 추가
     - s.pop() : 셋 s에서 랜덤하게 항목을 반환하고, 해당 항목을 제거 set이 비어 있을 경우, KeyError
-    - s.remove(s) : 항목 x를 셋 s에서 삭제 항목이 존재하지 않을 경우, KeyError
+    - s.remove(s) : 항목 x를 셋 s에서 삭제, 항목이 존재하지 않을 경우, KeyError
     - s.discard(t) : 셋 t에 있는 모든 항목 중 셋 s에 없는 항목을 추가
     - s.clear() : 모든 항목을 제거
     - s.isdisjoint(t) : 셋 s가 셋 t의 서로 같은 항목을 하나라도 갖고 있지 않은 경우, True 반환
