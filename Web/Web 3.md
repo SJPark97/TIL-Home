@@ -32,7 +32,7 @@
 
 
 
-### Bootstrap
+### Bootstrap Grid System
 
 - framework(공구함) : 추상화 (만드어진걸 그대로 가져와서 사용)
-
+- container -> row -> col(최대 12개)
