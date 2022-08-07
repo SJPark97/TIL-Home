@@ -105,7 +105,7 @@ print(b)
 
 - 객체와 클래스 문법
 
-  - 클래스 정의		*class MyClass::*
+  - 클래스 정의  *class MyClass::*
   - 인스턴스 생성    *my_instance = MyClass()*
   - 메서드 호출       *my_instance.my_method()*
   - 속성                    *my_instance.my_attribute*
