@@ -36,7 +36,7 @@
     - ```python
       def counting_sort(original, k):
           counter = [0] * (k + 1)
-          
+      
           # 1. counter에 original 원소의 빈도수 담기
           for i in original:
               counter[i] += 1
@@ -52,7 +52,7 @@
           for i in range(len(original)) - 1, -1, -1):
               counter[original[i]] -= 1
               result[counter[original[i]] = original[i]
-          
+      
           return result
       
       a= [0, 4, 1, 3, 1, 2, 4, 1]
@@ -62,21 +62,3 @@
     - stable정렬 : 입력한 수의 순서를 그대로 순서대로 출력
     
     - unstable정렬 : 입력한 수의 순서와 상관없이 출력
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
