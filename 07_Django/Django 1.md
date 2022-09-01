@@ -229,6 +229,8 @@ MTV : Model, Template, View
 
 14. template 생성
 
+15. python manage.py createsuperuser (관리자 계정 생성)
+
 ---
 
 ### DTS Syntax
@@ -276,5 +278,3 @@ path('show/<str:name >/', views.show),
 path('show/<name>/', views.show),
 
 path('show/<int:number >/', views.show),
-
-
