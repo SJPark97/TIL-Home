@@ -244,3 +244,7 @@ switch(name) {
     - 즉, JSON을 object로 사용하기 위해서는 변환 작업이 필요
       - JSON.stringify(jsondata) object -> json
       - JSON.parse(stringdata) json -> object
+
+
+
+1
