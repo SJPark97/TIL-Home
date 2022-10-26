@@ -132,3 +132,5 @@
       - 화살표 함수와 addEventListener
         - addEventListener에서 화살표 함수로 선언하면 this가 window를 가리킴
         - 고로 addEventListener에서는 function 키워드로 선언해야 함
+
+1
