@@ -108,4 +108,3 @@ class ArticleSerializer(serializers.ModelSerializer):
 
 ```
 
-s
